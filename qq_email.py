@@ -41,6 +41,6 @@ def send():
     try:
         with open('content.txt', 'r') as f:
             text = f.read()
-            send_qq_email(text, '******@qq.com')
+            send_qq_email(text, '*******@qq.com')
     except:
         pass
