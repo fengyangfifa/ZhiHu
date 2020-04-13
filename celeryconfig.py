@@ -1,6 +1,7 @@
 from __future__ import absolute_import
 from celery.schedules import crontab
 
+# 拉去吃代码
 BROKER_URL = 'redis://127.0.0.1:6379/0'
 CELERY_RESULT_BACKEND = 'redis'
 CELERYBEAT_SCHEDULE = {
