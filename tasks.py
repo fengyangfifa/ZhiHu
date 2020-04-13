@@ -6,6 +6,7 @@ import time
 app = Celery('tasks')
 app.config_from_object(celeryconfig)
 
+# 远端测试
 # 拉取测试
 @app.task
 def add():
